@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Verificador de idade </h1>
+    </header>
+    <section id="section">
+        <div>
+            <p>Ano de nascimento:
+                <input type="number" name="born" id="born" min="0" max="2023">
+            </p>
+            <p>Gênero:
+                <input type="radio" name="radsex" id="mas">
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+                <input type="radio" name="radsex" id="nin">
+                <label for="nin">Prefiro não informar</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res"></div>
+        <div> <img id="foto"> </div>
+    </section>
+
+    <footer>
+        <p id="footer">&copy;pprds.dev</pprds></p>
+    </footer>
+<script src="scripts.js"></script>
+</body>
+</html>

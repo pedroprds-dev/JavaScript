@@ -1,0 +1,35 @@
+body {
+font: normal 24pt Arial;
+background-image: -moz-radial-gradient(#eebc10,orange );
+}
+
+header {
+color: rgb(255, 255, 255);
+text-align: center;
+opacity: 0.8;
+}
+
+section {
+background:rgb(255, 255, 255);
+border-radius: 8px;
+margin: auto;
+padding: 10px;
+text-align: center;
+width: 500px;
+box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.436);
+
+}
+
+div {
+    font-size: 22px;
+    padding: 10px;
+}
+
+footer {
+color: bisque;
+text-align: center;
+font-style: italic;
+font-size: 12pt;
+opacity: 0.7;
+}
+

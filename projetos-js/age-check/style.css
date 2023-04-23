@@ -1,0 +1,29 @@
+body {
+background: rgb(62, 61, 73);
+}
+
+header {
+color: white;
+text-align: center;
+}
+
+section {
+background: white;
+border-radius: 8px;
+margin: auto;
+padding: 10px;
+text-align: center;
+width: 500px;
+box-shadow: 3px 3px 15px black;
+}
+
+img#foto {
+    padding: 10px;
+}
+
+footer {
+color: bisque;
+text-align: center;
+font-style: italic;
+}
+

@@ -1,0 +1,30 @@
+body {
+background: rgb(23, 23, 23);
+}
+
+header {
+color: bisque;
+text-align: center;
+}
+
+section {
+background:bisque;
+border-radius: 8px;
+margin: auto;
+padding: 10px;
+text-align: center;
+width: 500px;
+box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.436);
+
+}
+
+select {
+    width: 250px;
+}
+
+footer {
+color: bisque;
+text-align: center;
+font-style: italic;
+}
+

@@ -1,0 +1,37 @@
+body {
+background: rgb(23, 23, 23);
+}
+
+header {
+color: bisque;
+text-align: center;
+}
+
+section {
+background:bisque;
+border-radius: 8px;
+margin: auto;
+padding: 10px;
+text-align: center;
+width: 500px;
+box-shadow: 3px 3px 12px rgb(127, 127, 120);
+
+}
+
+input {
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px rgb(23, 23, 23) ;
+}
+
+select {
+    width: 150px;
+    border-radius: 8px  ;
+    box-shadow: 2px 2px 2px rgb(23, 23, 23) ;
+}
+
+footer {
+color: bisque;
+text-align: center;
+font-style: italic;
+}
+

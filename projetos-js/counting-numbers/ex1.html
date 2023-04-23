@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de números</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Contador de números</h1>
+    </header>
+
+    <section id="section">
+        <div>
+            <p>Número inicial:
+                <input type="number" name="inicial" id="inicial">
+            </p> 
+            <p>Número final:
+                <input type="number" name="final" id="final">
+            </p>
+            <p>De quanto em quanto:
+                <input type="number" name="passo" id="passo">
+            </p>
+            <p>
+                <input type="button" value="Contar" onclick="contar()" oncli>
+            </p>
+        </div>
+        <div id="res"></div>
+    </section>
+    
+    <footer>
+        <p id="footer">&copy;pprds.dev</pprds></p>
+    </footer>  
+<script src="scripts.js"></script>
+</body>
+</html>
