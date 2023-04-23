@@ -1,0 +1,20 @@
+body {
+    font: normal 18pt Arial;
+    background: rgb(23, 23, 23);
+    color: beige;
+    text-align: center;
+}
+
+input {
+    width: 70pt;
+    height: 20pt;
+}
+input#bt {
+    background: bisque;
+    color: black;
+    width: 60pt;
+    height: 25pt;
+}
+div#res {
+    margin-top: 20pt;
+}
